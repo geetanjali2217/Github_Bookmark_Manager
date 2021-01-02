@@ -1,0 +1,15 @@
+<div>Name: {data.name}</div>
+      <div>Url: {data.html_url}</div>
+      <button
+        onClick={() =>
+          addToManager({ id: data.id, name: data.name, url: data.html_url })
+        }
+      >
+        add repo
+      </button>
+
+      <tr>
+        <th>Name</th>
+          <th>Url</th>
+          <th></th>
+        </tr>
